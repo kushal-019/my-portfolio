@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0px;
+    text-transform: capitalize;
+    
+  }
+  main h1{
+      color: white;
+      text-align: center;
+  }
+  .header {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .name {
+    font-size: 35px;
+  }
+  .navigation {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px dotted white;
+    font-size: larger;
+  }
+  .navigation:hover{
+    border: none
+  }
+  .pro {
+    text-align: center;
+    
+  }
+  .intro {
+    height: 90vh;
+    padding: 10px;
+    
+    /* background-color: rgb(17, 12, 12); */
+    background: linear-gradient(
+      rgb(0, 0, 0),
+      rgb(28, 24, 24),
+      rgb(32, 24, 24),
+      rgb(39, 23, 23),
+      rgb(8, 4, 4)
+    );
+
+    display: flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap-reverse;
+  }
+  .about {
+    display: inline-block;
+    padding: 2.5rem;
+    font-size: large;
+    /* padding: 10px; */
+    color: rgb(255, 255, 255);
+    border: 0.5px solid rgb(166, 164, 164);
+    box-shadow: 5px 5px 5px 5px rgb(197, 199, 203);
+  }
+  #about{
+    font-size: xx-large;
+  }
+  .skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px 0;
+    margin: 30px 0 0 0;
+  }
+.my-skill{
+  display: inline-block;
+  width: 10rem;
+  padding:0.5rem 0.5rem;
+  margin: 20px 2px;
+  border-radius: 20px;
+  color: rgb(255, 238, 0);
+}
+.my-skill:hover{
+transform: scaleX(1.1);
+}
+
+#python{
+  background: linear-gradient(to right, rgb(107, 23, 23) 70%, rgb(83, 60, 60) 30%);
+  }
+  #html{
+    background: linear-gradient(to right, rgb(107, 23, 23) 85%, rgb(83, 60, 60)15%);
+  }
+  #css{
+    background: linear-gradient(to right, rgb(107, 23, 23) 70%, rgb(83, 60, 60) 30%);
+  }
+  #c{
+    background: linear-gradient(to right, rgb(107, 23, 23)75%, rgb(83, 60, 60)25%);
+  }
+  #cpp{
+    background: linear-gradient(to right, rgb(107, 23, 23) 60%,rgb(83, 60, 60) 40%);
+  }
+  #javascript{
+    background: linear-gradient(to right, rgb(107, 23, 23) 65%, rgb(83, 60, 60) 35%);
+  }
+  img {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+  } 
+  .projects {
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin: 1.5rem 0;
+  }
+  .projects div{
+    padding: 2rem;
+  }
+  .projects div:hover{
+    transform: scale(1.2);
+  }
+  .projects a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+  .achieve{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .contact{
+  text-align: center;
+  /* background-color:  rgb(124, 121, 121) ; */
+  /* background-color: rgba(33, 31, 31, 0.773) ; */
+  background: linear-gradient(
+    rgb(8, 4, 4),
+      rgb(28, 24, 24),
+      rgb(32, 24, 24),
+      rgb(39, 23, 23)
+    );
+
+  color: white;
+  padding: 2vh 0 1vh 0;
+}
+main{
+background: url(pexels-tetyana-kovyrina-937980.jpg);
+background-size: cover;
+color:white;
+}
+.divider{
+  font-size: xx-large;
+  top: -15px;
+  position: relative;
+  
+}
+.divide{
+  font-size: xx-large;
+}
+footer{
+  margin: 0;
+  padding: 0;
+}
+footer a{
+text-decoration: none;
+color: blanchedalmond;
+}
+.p{
+font-size: 1.5rem;
+}
+.certifications{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin: 50px 0;
+}
+.certifications div{
+padding: 1.5rem;
+margin: 1.5rem;
+border-top-right-radius: 25%;
+border-bottom-left-radius: 25%;
+background-color: rgb(13, 2, 63);
+}
+.certifications div:hover{
+transform: scale(1.2);
+}
+.imp{
+  font-size: x-large;
+  }
+  .details{
+  font-size: larger;
+  }
+  .minor-detail{
+  font-size: medium;
+  }
+
+@media only screen and (max-width:450px  ){
+.projects{
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  padding: 1rem;
+  font-size: medium;
+}
+.name{
+  font-size: large;
+}
+.intro img{
+  width: 12rem;
+  height: 12rem;
+  padding: 2rem;
+  
+}
+.navigation{
+  font-size: medium;
+}
+.p{
+font-size: 0.9rem;
+}
+.d{
+font-size: 0.5rem;
+}
+.pro img{
+  width:4rem;
+  height:4rem;
+}
+.header{
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 20px;
+}
+}
+@media only screen and ( max-height:600px ){
+.projects{
+  padding: 5px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about{
+  padding: 1rem;
+  font-size: medium;
+}
+.intro img{
+  width: 16rem;
+  height: 17rem;
+  padding: 2rem;
+  
+}
+.intro{
+  height: 80vh;
+}
+.pro img{
+  width:6rem;
+  height:6rem;
+  
+}
+}
+
+
+
